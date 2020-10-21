@@ -146,7 +146,7 @@ const ProductSelector = () => {
     {
       name: "Groomed trails",
       icon:
-        "https://www.lortebu.no/bilder.php?db=lortebu&post_table=bildegalleri&felt=bildefil1&id=15",
+        "https://64.media.tumblr.com/30f6d82f96576365d0ac00aec50ae676/tumblr_p4i5z8W8Uh1sym5i0o1_400.jpg",
     },
     {
       name: "Loose tracks",
