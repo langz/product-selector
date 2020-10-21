@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import HomePage from "./pages/home/HomePage";
+import ProductSelector from "./pages/product-selector/ProductSelector";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Product Selector</h1>
-      <HomePage />
+      <img src="https://www.swixsport.com/siteassets/logos/logo.png?h=40" />
+      <h1>Nordic Poles Selector</h1>
+      <ProductSelector />
     </div>
   );
 };
