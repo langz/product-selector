@@ -207,6 +207,15 @@ const ProductSelector = () => {
           "https://www.swixsport.com/globalassets/inriver/resources/rdtrts3_computedimageurl.jpg?width=400&height=400&quality=80&f.sharpen=30"
         }
       />
+      <div className="button-container-buy">
+        <Button
+          variant="contained"
+          color="secondary"
+          style={{ backgroundColor: "#d70828" }}
+        >
+          Kjøp
+        </Button>
+      </div>
     </>
   );
 
