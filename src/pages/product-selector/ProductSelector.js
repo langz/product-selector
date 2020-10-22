@@ -31,31 +31,31 @@ const ProductSelector = () => {
   const handMarks = [
     {
       value: 140,
-      label: "150cm",
+      label: "150mm",
     },
     {
       value: 160,
-      label: "150cm",
+      label: "150mm",
     },
     {
       value: 180,
-      label: "180cm",
+      label: "180mm",
     },
     {
       value: 200,
-      label: "200cm",
+      label: "200mm",
     },
     {
       value: 220,
-      label: "220cm",
+      label: "220mm",
     },
     {
       value: 240,
-      label: "240cm",
+      label: "240mm",
     },
     {
       value: 260,
-      label: "260cm",
+      label: "260mm",
     },
   ];
 
@@ -194,7 +194,7 @@ const ProductSelector = () => {
       <Card
         text={
           hand > 0
-            ? "Strap Pro Fit TCS - Størrelse " + handSize(hand)
+            ? "Strap Pro Fit TCS - Size " + handSize(hand)
             : "Strap Pro Fit TCS"
         }
         icon={
